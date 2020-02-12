@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewpoint" content='width=device=width, initial-scale=1.0' />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Flexbox demo</title>
+  <link rel="stylesheet" href="./c.css" />
+</head>
+
+<body>
+  <!-- Based on Based on https://css-tricks.com/snippets/css/a-guide-to-flexbox/-->
+  <div class="container">
+      <header class="header">Header</header>
+      <article class="main">
+        <h2>Main Content</h2>
+        <u1>
+          <li>
+            When in a small screen (width is smaller than 700px), display blocks in the default flexbox styles, usin the same grow/shrink setting, from top to bottom.
+            The order is based on html content positions.
+          </li>
+          <li> 
+            in a large screen (width is equal to 700px or is bigger than 700px), set the main content with "flex: 30" and change the aside-1 order to be 1 -- display
+            before the main content. Now all two blocks are in the same row. But main content grows 2 times faster than the two asides.
+          </li>
+          <li>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperioes, culpa necessitatibus
+            laboriosam nulla est voluptates omnis repellendus nam repudiandae sequi, architecto assumenda.
+            Incidunt nam quasi voluptates, aspernatur enim sint aut.
+          </li>
+        </u1>
+      </article>
+      <aside class="aside aside-1">Aside 1</aside>
+      <aside class="aside aside-2">Aside 2</aside>
+      <footer>Footer</footer>
+  </div>    
+</body>
+
+</html>

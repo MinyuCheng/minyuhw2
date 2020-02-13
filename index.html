@@ -3,38 +3,41 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewpoint" content='width=device=width, initial-scale=1.0' />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Flexbox demo</title>
-  <link rel="stylesheet" href="./c.css" />
+  <meta name="viewpoint" content='width=device=width'>
+  <title>My Page</title>
+  <link rel="shortcut icon" href="images/favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Barlow" rel="stylesheet">
 </head>
 
 <body>
-  <!-- Based on Based on https://css-tricks.com/snippets/css/a-guide-to-flexbox/-->
-  <div class="container">
-      <header class="header">Header</header>
-      <article class="main">
-        <h2>Main Content</h2>
-        <u1>
-          <li>
-            When in a small screen (width is smaller than 700px), display blocks in the default flexbox styles, usin the same grow/shrink setting, from top to bottom.
-            The order is based on html content positions.
-          </li>
-          <li> 
-            in a large screen (width is equal to 700px or is bigger than 700px), set the main content with "flex: 30" and change the aside-1 order to be 1 -- display
-            before the main content. Now all two blocks are in the same row. But main content grows 2 times faster than the two asides.
-          </li>
-          <li>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperioes, culpa necessitatibus
-            laboriosam nulla est voluptates omnis repellendus nam repudiandae sequi, architecto assumenda.
-            Incidunt nam quasi voluptates, aspernatur enim sint aut.
-          </li>
-        </u1>
-      </article>
-      <aside class="aside aside-1">Aside 1</aside>
-      <aside class="aside aside-2">Aside 2</aside>
-      <footer>Footer</footer>
-  </div>    
+  <header class="fixed-bar">
+    <h1 class="page-title">Mike's World</h1>
+  </header>
+  
+  <nav>
+    <ul class="navigation">
+      <li>Home</li>
+      <li><a href="contact/index.html">Contact</a></li>
+    </ul>
+  </nav>
+  <main>
+    <div class="trip-text">
+      <p>My SF City Trip</p>
+      <p>The California Landscape</p>
+    </div>
+    <div class="trip-images">
+      <img src="images/sf.png" alt="Image of the San Francisco streets">
+      <img src="images/california.png" alt="Image of the California streets">
+    </div>
+    <p class="feedback">Do people like my Page</p>
+  </main>
+  <footer>
+    <div class="review-clients">
+      <img src="images/image-manu.png" alt="Image of Manu">
+      <p>Manu - Looks really nice, beautiful pictures!</p>
+    </div>
+  </footer>
 </body>
 
 </html>

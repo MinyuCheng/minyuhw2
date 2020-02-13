@@ -48,7 +48,7 @@ a {
 
 /*main*/
 .trip-text {
-  display: inline-flexbox;
+  display: inline-flex;
 }
 
 .trip-images {
@@ -97,6 +97,9 @@ a {
 @media (min-width: 400px) {
   .navigation li{
     font-size: 1.2rem;
+  }
+  .trip-text {
+      display: none;
   }
 }
 

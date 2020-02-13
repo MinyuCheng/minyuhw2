@@ -109,7 +109,7 @@ a {
   }
 
   .trip-text {
-      display: inline-flexbox;
+      display: flex;
   }
 
   .trip-text p{

@@ -48,7 +48,7 @@ a {
 
 /*main*/
 .trip-text {
-  display: none;
+  display: inline-flexbox;
 }
 
 .trip-images {

@@ -107,6 +107,10 @@ a {
   .trip-images img{
     width: 50%;
   }
+  
+  .trip-text {
+      display: inline-flex;
+  }
 
   .trip-text p{
     background-color: #fa923f;
